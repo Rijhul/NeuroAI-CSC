@@ -18,12 +18,12 @@ pip install git+https://github.com/Rijhul/NeuroAI-CSC.git
 ## Quick Start
 
 ```python
-import neuroai_csc
+import csc_neuroai
 
-print(neuroai_csc.__version__)
+print(csc_neuroai.__version__)
 # Output: 0.1.0
 
-print(neuroai_csc.hello())
+print(csc_neuroai.hello())
 # Output: Computational Stem Cells Ready.
 ```
 
