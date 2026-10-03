@@ -7,7 +7,7 @@ setup(
     name="NeuroAI-CSC",
     version="0.1.0",
     author="Rijhul Lahariya",
-    author_email="contact@rijhullahariya.com",
+    author_email="dr.rijhullahariya@gmail.com",
     description="Computational Stem Cells (CSC) for Autonomous Neural Network Self-Repair",
     long_description=long_description,
     long_description_content_type="text/markdown",
