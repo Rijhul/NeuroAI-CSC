@@ -1,0 +1,84 @@
+Metadata-Version: 2.4
+Name: csc-neuroai
+Version: 0.1.0
+Summary: Computational Stem Cells (CSC) for Autonomous Neural Network Self-Repair
+Home-page: https://github.com/rijhullahariya/csc-neuroai
+Author: Rijhul Lahariya
+Author-email: Rijhul Lahariya <contact@rijhullahariya.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.20.0
+Requires-Dist: torch>=1.10.0
+Dynamic: author
+Dynamic: home-page
+Dynamic: license-file
+Dynamic: requires-python
+
+# csc-neuroai
+
+**Autonomous Computational Stem Cell (CSC) Self-Repair Architecture for Deep Neural Networks.**
+
+[![PyPI Version](https://img.shields.io/pypi/v/csc-neuroai.svg)](https://pypi.org/project/csc-neuroai/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
+---
+
+## Overview
+
+`csc-neuroai` introduces a biologically-inspired self-healing computational paradigm for artificial neural networks. When targeted layers undergo structural damage or catastrophic weight ablation, dormant Computational Stem Cells autonomously detect degradation, synthesize low-rank weight corrections, and seamlessly restore inference accuracy without requiring full model retraining.
+
+---
+
+## Installation
+
+```bash
+pip install csc-neuroai
+```
+
+---
+
+## Quick Start
+
+```python
+import csc_neuroai
+
+print(csc_neuroai.__version__)
+# Output: 0.1.0
+
+print(csc_neuroai.hello())
+# Output: Computational Stem Cells Ready.
+```
+
+---
+
+## Mathematical Formulation
+
+The Computational Stem Cell integration mechanism is defined as:
+
+W_eff(l) = W₀(l) + α(t) · (A_l × B_lᵀ)
+
+Where:
+- W₀(l) represents the damaged baseline layer tensor.
+- A_l ∈ ℝ^(d_in × r) and B_l ∈ ℝ^(d_out × r) are dormant low-rank factor matrices (rank r = 4).
+- α(t) ∈ [0, 1] is the smooth dynamic integration factor modulating plasticity during recovery.
+
+---
+
+## Key Features
+
+- **Autonomous Degradation Detection**: Continuous Jacobian-norm sensitivity tracking.
+- **Sub-Second Repair Cycles**: Fast localized SVD-driven weight distillation.
+- **Zero Full-Retraining Overhead**: Repairs targeted damage directly in memory.
+- **Hardware Agnostic**: Compatible with standard PyTorch and NumPy workflows.
+
+---
+
+## Author & Citation
+
+- **Author**: Rijhul Lahariya
+- **Repository**: [https://github.com/rijhullahariya/csc-neuroai](https://github.com/rijhullahariya/csc-neuroai)
+- **License**: MIT License

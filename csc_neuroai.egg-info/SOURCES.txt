@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+csc_neuroai/__init__.py
+csc_neuroai/core.py
+csc_neuroai.egg-info/PKG-INFO
+csc_neuroai.egg-info/SOURCES.txt
+csc_neuroai.egg-info/dependency_links.txt
+csc_neuroai.egg-info/requires.txt
+csc_neuroai.egg-info/top_level.txt
