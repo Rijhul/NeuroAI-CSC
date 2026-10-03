@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "NeuroAI-CSC"
 version = "0.1.0"
 authors = [
-  { name="Rijhul Lahariya", email="contact@rijhullahariya.com" },
+  { name="Rijhul Lahariya", email="dr.rijhullahariya@gmail.com" },
 ]
 description = "Computational Stem Cells (CSC) for Autonomous Neural Network Self-Repair"
 readme = "README.md"
